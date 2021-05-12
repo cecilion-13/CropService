@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @EqualsAndHashCode
 @NoArgsConstructor
-@Document(collection="crop-info")
+@Document(collection="cropItems")
 @AllArgsConstructor
 public class CropItem {
 

@@ -8,10 +8,12 @@ import java.util.List;
 import java.util.Optional;
 
 public interface CropRepository extends MongoRepository<CropItem,String> {
-    //Optional<List<CropItem>> findByEmail(String email);
-   List<CropItem> findByType(String type);
+      List<CropItem> findByType(String type);
    List<CropItem> findByName(String name);
+    List<CropItem> findByEmail(String email);
 
     CropItem findBy_id(ObjectId _id);
+
+
 
 }

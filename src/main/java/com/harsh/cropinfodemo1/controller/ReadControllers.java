@@ -48,4 +48,11 @@ public class ReadControllers {
         return cropItems;
     }
 
+    @RequestMapping(value = "farmer/{email}", method = RequestMethod.GET)
+    public CropItems getItemsByEmail(@PathVariable("email") String email) {
+        List<CropItem> items = cropService.getCropItemsByEmail(email);
+        CropItems cropItems = new CropItems();
+        cropItems.setItemList(items);
+        return cropItems;
+    }
 }
