@@ -3,6 +3,13 @@
 This repository is a part of a project :- "Agriculture Crop System".
 
 This is used to manage the details of all the crops added in the application.
+
+1. Adding the new CropItem.
+2. Updating the Crop Details.
+3. Managing the CropItems.
+4. Removing the CropItem from the application.
+
+
 For Example : 
 1.{
 "type": "Vegetable",
