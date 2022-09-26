@@ -1,6 +1,14 @@
 # CropService
 
+
 This repository is a part of a project :- "Agriculture Crop System".
+Following are the various modules of this project.
+1. [Farmer Module](https://github.com/cecilion-13/Farmer_management_demo1)
+2. [Dealer Module](https://github.com/cecilion-13/DealerManagement)
+3. [Crop Module](https://github.com/cecilion-13/CropService)
+4. [Bank Account Module](https://github.com/cecilion-13/accountsService)
+5. [API Gateway Serivce](https://github.com/cecilion-13/api-gateway)
+6. [Discovery Server](https://github.com/cecilion-13/discover-server)
 
 This is used to manage the details of all the crops added in the application.
 
@@ -26,4 +34,4 @@ For Example :
 ![image](https://user-images.githubusercontent.com/68285354/172124551-5a63c2cd-daea-4f81-b205-15eaa9861b01.png)
 
 
-[Farmer Module](https://github.com/cecilion-13/Farmer_management_demo1)
+
